@@ -35,4 +35,30 @@ ZBOOK_VIEWCLUSTER_EXIT_POOL
 # Chapter 04
 In the book we describe to use number range objekt "ZBOOK_TIK". Actually it's "ZBOOK_TIC". Please make sure you use the right object name.
 
+# Chapter 5
+Reuse Controls
+
+# Chapter 6
+Work with textedit Control
+
+# Chapter 7 
+Application log
+
+# Chapter 8
+Change documents.
+not yet supportet by abapGit. Create as described in the book
+
+# Chapter 9
+Work with Tree Controls
+
+# Chapter 10
+Dynamic documents
+
+# Chapter 11
+Implement modules in ticket system (no sources)
+
+# Chapter 12
+Use frame works. Creation of Spliiter-admin-control.
+
+
 
