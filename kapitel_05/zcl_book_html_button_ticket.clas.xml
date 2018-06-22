@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BOOK_HTML_BUTTON_TICKET</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Standard HTML-Buttons für Ticket-Dialog</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_HTML_BUTTON_TICKET</CLSNAME>
+     <CMPNAME>BUILD_BUTTON</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Button aufbauen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_HTML_BUTTON_TICKET</CLSNAME>
+     <CMPNAME>CLOSE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schaltfläche &quot;Abschließen&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_HTML_BUTTON_TICKET</CLSNAME>
+     <CMPNAME>DECLINE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schaltfläche &quot;Ablehnen&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_HTML_BUTTON_TICKET</CLSNAME>
+     <CMPNAME>SAVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Schaltfläche &quot;Sichern&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
