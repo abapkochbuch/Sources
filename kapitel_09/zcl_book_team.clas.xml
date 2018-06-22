@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Team Baum</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>ADD_NODE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hinzufügen der Knoten und Items</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>BUILD_ITEMS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aufbauen der Itemtabelle für die Knoten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>CHECK_RESPONSIBLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfen ob Knoten ein Mitarbeiter ist</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konstruktor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermitteln der Team Daten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Erzeugen der Instanz - Singleton</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>R_DRAG_DROP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Buch: Behavior für Drag&amp;Drop</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>R_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Buch: Team Baum Instanz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>R_TREE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Buch: Simple Tree Control</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>SETUP_DRAG_DROP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aufbauen des Drag&amp;Drop Objektes und Erzeugen des Handles</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>T_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Buch: Tabellentyp TEAM</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>T_RESPONSIBLES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tree Model: Tabelle von Knotenschlüsseln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TEAM</CLSNAME>
+     <CMPNAME>ZRESP_CLICK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Doppelklick auf Mitarbeiter/Verantwortlicher</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

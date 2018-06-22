@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Applikationsprotokoll zum Ticket</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>ADD_MSG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nachricht hinzufügen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>CONTROL_HANDLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anwendungs-Log: Handle auf die Control-Anzeige</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Protokoll anzeigen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Factory</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>LOGNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anwendungs-Log: Protokollnummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>LOG_HANDLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anwendungs-Log: Handle eines Protokolls</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>R_CONTAINER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Abstracter Container fuer GUI Controls</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>R_POPUP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Container fuer Custom Controls in der Dynpro Area</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>SAVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Protokoll speichern</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>SET_CONTAINER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ausgabecontainer setzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>STATUS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Buchprojekt: Status des Tickets</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>TIKNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Buchprojekt: Ticketnummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG</CLSNAME>
+     <CMPNAME>T_INST</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Instanzen</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

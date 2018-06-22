@@ -1,0 +1,18 @@
+*"* components of interface ZIF_GUI_EXTENDED_TREE_EVENTS
+interface ZIF_GUI_EXTENDED_TREE_EVENTS
+  public .
+
+
+  interfaces ZIF_GUI_SIMPLE_TREE_EVENTS .
+
+  methods HANDLE_BUTTON_CLICK .
+  methods HANDLE_CHECKBOX_CHANGE .
+  methods HANDLE_HEADER_CLICK .
+  methods HANDLE_HEADER_CONTEXT_MENU_REQ .
+  methods HANDLE_HEADER_CONTEXT_MENU_SEL .
+  methods HANDLE_ITEM_CONTEXT_MENU_REQ .
+  methods HANDLE_ITEM_CONTEXT_MENU_SEL .
+  methods HANDLE_ITEM_DOUBLE_CLICK .
+  methods HANDLE_ITEM_KEYPRESS .
+  methods HANDLE_LINK_CLICK .
+endinterface.

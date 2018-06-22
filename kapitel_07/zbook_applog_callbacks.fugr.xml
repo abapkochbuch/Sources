@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Buch: Callbacks zum Applikationslog</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBOOK_APPLOG_CALLBACKSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBOOK_APPLOG_CALLBACKS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_BOOK_APPLOG_CB_TICKET_CHANGE</FUNCNAME>
+     <SHORT_TEXT>Application Log Callback: Ticket ändern</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>I_T_PARAMS</PARAMETER>
+       <DBSTRUCT>SPAR</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_T_PARAMS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Schnittstelle für Funktionsgruppe SPO6</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Drag und Drop Datenobjekt</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+     <CMPNAME>GET_CITEM_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermitteln der ITEM-Tabelle im Ziel-Control für Column-Trees</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+     <CMPNAME>GET_LITEM_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermitteln der ITEM-Tabelle im Ziel-Control für List-Trees</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+     <CMPNAME>GET_NODE_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ermitteln des Nodekeys</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+     <CMPNAME>ITEM_INDEX</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Index interner Tabellen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+     <CMPNAME>NODE_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Tree Model: Schlüssel eines Knotens</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+     <CMPNAME>SET_CITEM_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzen der ITEM-Tabelle im Quell-Control für Column-Trees</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+     <CMPNAME>SET_LITEM_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzen der ITEM-Tabelle im Quell-Control für List-Trees</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+     <CMPNAME>SET_NODE_KEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Setzen node im Quell-Control</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+     <CMPNAME>T_CITEM_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>List Tree Model: Item-Tabelle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DND_MODEL_TREE</CLSNAME>
+     <CMPNAME>T_LITEM_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>List Tree Model: Item-Tabelle</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

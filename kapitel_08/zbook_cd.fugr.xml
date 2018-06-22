@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>CHDO ZBOOK_TICKET =&gt; von RSSCD000 gen.</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBOOK_CDTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBOOK_CD</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZBOOK_TICKET_WRITE_DOCUMENT</FUNCNAME>
+     <UPDATE_TASK>2</UPDATE_TASK>
+     <SHORT_TEXT>CHDO ZBOOK_TICKET =&gt; von RSSCD000 gen.</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>OBJECTID</PARAMETER>
+       <TYP>CDHDR-OBJECTID</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>TCODE</PARAMETER>
+       <TYP>CDHDR-TCODE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UTIME</PARAMETER>
+       <TYP>CDHDR-UTIME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UDATE</PARAMETER>
+       <TYP>CDHDR-UDATE</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>USERNAME</PARAMETER>
+       <TYP>CDHDR-USERNAME</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PLANNED_CHANGE_NUMBER</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <TYP>CDHDR-PLANCHNGNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OBJECT_CHANGE_INDICATOR</PARAMETER>
+       <DEFAULT>&apos;U&apos;</DEFAULT>
+       <TYP>CDHDR-CHANGE_IND</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>PLANNED_OR_REAL_CHANGES</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <TYP>CDHDR-CHANGE_IND</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>NO_CHANGE_POINTERS</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <TYP>CDHDR-CHANGE_IND</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>N_ZBOOK_TICKET</PARAMETER>
+       <TYP>ZBOOK_TICKET</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>O_ZBOOK_TICKET</PARAMETER>
+       <TYP>ZBOOK_TICKET</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_ZBOOK_TICKET</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <TYP>CDPOS-CHNGIND</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>OBJECTID</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TCODE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UTIME</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UDATE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>USERNAME</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PLANNED_CHANGE_NUMBER</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 006</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OBJECT_CHANGE_INDICATOR</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 007</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PLANNED_OR_REAL_CHANGES</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 008</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_CHANGE_POINTERS</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 009</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>N_ZBOOK_TICKET</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 010</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>O_ZBOOK_TICKET</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 011</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_ZBOOK_TICKET</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 012</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

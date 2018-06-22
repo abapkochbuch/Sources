@@ -1,0 +1,8 @@
+* workaera_old of ZBOOK_TICKET
+DATA: OS_ZBOOK_TICKET
+            TYPE ZBOOK_TICKET
+* workaera_new of ZBOOK_TICKET
+     ,NS_ZBOOK_TICKET
+            TYPE ZBOOK_TICKET.
+DATA: UPD_ZBOOK_TICKET TYPE C.
+

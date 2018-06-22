@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Ticket Übersicht</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Ticket löschen</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Verantwortlichen ändern</ENTRY>
+     <LENGTH>24</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>003</KEY>
+     <ENTRY>Verantwortlichen ändern von</ENTRY>
+     <LENGTH>27</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>004</KEY>
+     <ENTRY>auf</ENTRY>
+     <LENGTH>3</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>ADD_INFO</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hinzufügen von zusätzlichen Informationen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>BUILD_DISPLAY_OPTIONS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aufbauen des Feldkatalogs, Layout und Variante</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>BUILD_DROPDOWN_TABLE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aufbauen einer Dropdown-Tabelle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konstruktor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>C_FC_DELETE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Funktionscode, der PAI ausgelöst hat</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>C_STATUS_CLSD</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Allgemeine Materialdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>DELETE_ROWS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Löschen von Zeilen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>GET_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Selektieren der Hauptdaten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Get Instance als Singleton</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>R_ALV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV List Viewer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>R_CONT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Container fuer Custom Controls in der Dynpro Area</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>R_DRAG_DROP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Behavior für Drag&amp;Drop</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>R_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ticker Übersicht</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>SETUP_ALV</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV Anzeige</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>SETUP_DRAG_DROP</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Aufbauen des Drag&amp;Drop Objektes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>S_LAYOUT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>ALV-Control: Layoutstruktur</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>S_SELECTION</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ranges für Select-Options aus Ticket Overview</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>S_VARIANT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anzeigevariante (externe Verwendung)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>T_DATA</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>TT ZBOOK_TICKET_OVERVIEW</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>T_EXCL</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Funktionscodestabelle</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_OVERVIEW</CLSNAME>
+     <CMPNAME>T_FCAT</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Feldkatalog für ListViewerControl</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

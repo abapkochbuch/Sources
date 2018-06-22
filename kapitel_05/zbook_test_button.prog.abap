@@ -37,12 +37,9 @@ END-OF-SELECTION.
 *&---------------------------------------------------------------------*
 *&      Module  STATUS_0100  OUTPUT
 *&---------------------------------------------------------------------*
-*       text
-*----------------------------------------------------------------------*
 MODULE status_0100 OUTPUT.
 
   SET PF-STATUS '100'.
-*  SET TITLEBAR 'xxx'.
   PERFORM init.
 
 ENDMODULE.                 " STATUS_0100  OUTPUT
@@ -63,8 +60,6 @@ ENDMODULE.                 " USER_COMMAND_0100  INPUT
 *&---------------------------------------------------------------------*
 *&      Form  init
 *&---------------------------------------------------------------------*
-*       text
-*----------------------------------------------------------------------*
 FORM init.
 
   CHECK gr_button1 IS INITIAL.
@@ -75,11 +70,11 @@ FORM init.
 
   CREATE OBJECT gr_button1
     EXPORTING
-*      iv_cc_name = 'BUTTON1'
+*     iv_cc_name   = 'BUTTON1'
       ir_container = gr_cc1
-      iv_text    = 'Versand'(001)
-      iv_color   = '#ff0'
-      iv_ok_code = 'SHIPPING'.
+      iv_text      = 'Versand'(001)
+      iv_color     = '#ff0'
+      iv_ok_code   = 'SHIPPING'.
 
   CREATE OBJECT gr_button2
     EXPORTING

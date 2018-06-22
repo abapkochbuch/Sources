@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZBOOK</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>Kochbuch</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Status &amp; gesetzt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Ticket geschlossen. Änderung nicht möglich!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Ticketnummer &amp; wurde erstellt.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Ticketnummer &amp; wurde gesichert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Ticket &amp; nicht vorhanden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Ticket &amp; wurde eingelesen.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Es wurden keine Daten geändert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Statusänderung Ticket &amp;1: &amp;2 -&gt; &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Status geändert: &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Neue Meldung. Demo. &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>ZBOOK</ARBGB>
+     <MSGNR>014</MSGNR>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
