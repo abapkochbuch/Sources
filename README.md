@@ -6,6 +6,12 @@ Written by Enno Wulff, Maic Haubitz, Dennis Goerke, Udo Toenges, Sascha Seegebar
 
 ![ABAP Kochbuch](https://s3-eu-west-1.amazonaws.com/cover2.galileo-press.de/print/9783836241076_267.png "ABAP Kochbuch")
 
+# abapGit
+
+Use [abapGit](http://docs.abapgit.org/) for installing the sources in your SAP system.
+
+The sources will be installed as local objects with package $ABAP_KOCHBUCH and sub packages $ABAP_KOCHBUCH_KAPITEL_nn.
+
 # Current status
 The migration of the ABAP Kochbuch sources are in progress.
 
