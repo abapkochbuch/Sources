@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZBOOK_PERSON_OWNER</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>ZBOOK_PERSON</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>14</SCRLEN2>
+    <SCRLEN3>20</SCRLEN3>
+    <DDTEXT>Buchprojekt: Besitzer der Meldung</DDTEXT>
+    <REPTEXT>Besitzer</REPTEXT>
+    <SCRTEXT_S>Besitzer</SCRTEXT_S>
+    <SCRTEXT_M>Besitzer</SCRTEXT_M>
+    <SCRTEXT_L>Besitzer</SCRTEXT_L>
+    <DTELMASTER>D</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

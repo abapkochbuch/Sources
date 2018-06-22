@@ -1,0 +1,2 @@
+FUNCTION-POOL ZBOOK_TICKET.                 "MESSAGE-ID ..
+

@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Kochbuch: Ticketdaten sichern</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBOOK_TICKET_SAVETOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBOOK_TICKET_SAVE</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_BOOK_TICKET_SAVE</FUNCNAME>
+     <SHORT_TEXT>Kochbuch: Ticketdaten sichern</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IS_TICKET</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZBOOK_TICKET</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_TICKET_NR</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>ZBOOK_TICKET_NR</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IS_TICKET</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Buchprojekt: Ticket</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_TICKET_NR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Buchprojekt: Ticketnummer</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_RFC_MARA_READ</FUNCNAME>
+     <SHORT_TEXT>Lesen der MARA</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <DBFIELD>MARA-MATNR</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_SPRACHE</PARAMETER>
+       <DBFIELD>MAKT-SPRAS</DBFIELD>
+       <DEFAULT>SY-LANGU</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_MAKT</PARAMETER>
+       <DBFIELD>MAKT</DBFIELD>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_MARA</PARAMETER>
+       <DBFIELD>MARA</DBFIELD>
+      </RSEXP>
+     </EXPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>NO_ENTRY</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_SPRACHE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sprache</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_MAKT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sprachensegment</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_MARA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>A-Segment</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>NO_ENTRY</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Kein Eintrag gefunden</STEXT>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_RFC_READ_FORM</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>SAPscript: Lesen Formular</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>CLIENT</PARAMETER>
+       <DBFIELD>SY-MANDT</DBFIELD>
+       <DEFAULT>SY-MANDT</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FORM</PARAMETER>
+       <DBFIELD>ITCTA-TDFORM</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LANGUAGE</PARAMETER>
+       <DBFIELD>SY-LANGU</DBFIELD>
+       <DEFAULT>SY-LANGU</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OLANGUAGE</PARAMETER>
+       <DBFIELD>SY-LANGU</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>OSTATUS</PARAMETER>
+       <DBFIELD>ITCTA-TDSTATUS</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>STATUS</PARAMETER>
+       <DBFIELD>ITCTA-TDSTATUS</DBFIELD>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>THROUGHCLIENT</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR01</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>READ_ONLY_HEADER</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR01</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>THROUGHLANGUAGE</PARAMETER>
+       <DEFAULT>SPACE</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>CHAR01</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>FORM_HEADER</PARAMETER>
+       <DBFIELD>ITCTA</DBFIELD>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>FOUND</PARAMETER>
+       <TYP>CHAR01</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>HEADER</PARAMETER>
+       <DBFIELD>THEAD</DBFIELD>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>OLANGUAGE</PARAMETER>
+       <DBFIELD>SY-LANGU</DBFIELD>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>FORM_LINES</PARAMETER>
+       <DBSTRUCT>TLINE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>PAGES</PARAMETER>
+       <DBSTRUCT>ITCTG</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>PAGE_WINDOWS</PARAMETER>
+       <DBSTRUCT>ITCTH</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>PARAGRAPHS</PARAMETER>
+       <DBSTRUCT>ITCDP</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>STRINGS</PARAMETER>
+       <DBSTRUCT>ITCDS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>TABS</PARAMETER>
+       <DBSTRUCT>ITCDQ</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>WINDOWS</PARAMETER>
+       <DBSTRUCT>ITCTW</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>CLIENT</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FORM</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LANGUAGE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OLANGUAGE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OSTATUS</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 005</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>STATUS</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 006</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>THROUGHCLIENT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Charakterfeld der Länge 1</STEXT>
+       <INDEX> 007</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>READ_ONLY_HEADER</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Charakterfeld der Länge 1</STEXT>
+       <INDEX> 008</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>THROUGHLANGUAGE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Charakterfeld der Länge 1</STEXT>
+       <INDEX> 009</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FORM_HEADER</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 010</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FOUND</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Charakterfeld der Länge 1</STEXT>
+       <INDEX> 011</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>HEADER</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 012</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OLANGUAGE</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 013</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FORM_LINES</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 014</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PAGES</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 015</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PAGE_WINDOWS</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 016</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PARAGRAPHS</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 017</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>STRINGS</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 018</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>TABS</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 019</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>WINDOWS</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 020</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

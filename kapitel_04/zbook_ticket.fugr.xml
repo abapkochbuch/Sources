@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Buchprojekt: Nützliche Bausteine</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBOOK_TICKETTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBOOK_TICKET</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>CONVERSION_EXIT_ZBPER_INPUT</FUNCNAME>
+     <SHORT_TEXT>Konvertierungs-Exit ALPHA, extern-&gt;intern</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>INPUT</PARAMETER>
+       <TYP>CLIKE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>OUTPUT</PARAMETER>
+       <TYP>CLIKE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>INPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>C-Feld</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OUTPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>interne Darstellung von INPUT, beliebiger Typ</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>CONVERSION_EXIT_ZBPER_OUTPUT</FUNCNAME>
+     <SHORT_TEXT>Konvertierungs-Exit ALPHA, extern-&gt;intern</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>INPUT</PARAMETER>
+       <TYP>CLIKE</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>OUTPUT</PARAMETER>
+       <TYP>CLIKE</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>INPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>C-Feld</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>OUTPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>interne Darstellung von INPUT, beliebiger Typ</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_BOOK_PARALLEL_DEMO</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Kochbuch 2.0: Demonstration Parallelverarbeitung</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>TIKNR</PARAMETER>
+       <TYP>ZBOOK_TICKET_NR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>DATEINAME</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>P_TASK</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>TW_TASK_LUW_ID</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>FEHLER</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>TIKNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Buchprojekt: Ticketnummer</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DATEINAME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Verzeichnis</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>P_TASK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Task-ID</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FEHLER</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Fehler beim Upload</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_BOOK_PERSONAL_SETTINGS_EDIT</FUNCNAME>
+     <SHORT_TEXT>Kochbuch: Personalisierung für Ticket-Dialog</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>P_PERS_OBJECT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>REF TO CL_PERS_OBJECT_DATA</TYP>
+       <REF_CLASS>X</REF_CLASS>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>P_VIEW_MODE</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR1</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXCEPTION>
+      <RSEXC>
+       <EXCEPTION>DIALOG_CANCELED</EXCEPTION>
+      </RSEXC>
+      <RSEXC>
+       <EXCEPTION>PERS_OBJECT_ERROR</EXCEPTION>
+      </RSEXC>
+     </EXCEPTION>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>P_PERS_OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Personalisierungsobjekt</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>P_VIEW_MODE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzeigemodus</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>DIALOG_CANCELED</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Dialog abgebrochen</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>PERS_OBJECT_ERROR</PARAMETER>
+       <KIND>X</KIND>
+       <STEXT>Probleme bei der Übergabe der Personalisierungsdaten</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_BOOK_TICKET_SHLP_EXIT</FUNCNAME>
+     <SHORT_TEXT>Beispiel für ein Suchhilfe-Exit eine Suchhilfe</SHORT_TEXT>
+     <CHANGING>
+      <RSCHA>
+       <PARAMETER>SHLP</PARAMETER>
+       <TYP>SHLP_DESCR</TYP>
+      </RSCHA>
+      <RSCHA>
+       <PARAMETER>CALLCONTROL</PARAMETER>
+       <DBFIELD>DDSHF4CTRL</DBFIELD>
+      </RSCHA>
+     </CHANGING>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>SHLP_TAB</PARAMETER>
+       <TYP>SHLP_DESCT</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>RECORD_TAB</PARAMETER>
+       <DBSTRUCT>SEAHLPRES</DBSTRUCT>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>SHLP_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tabelle der elementaren Suchhilfen</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RECORD_TAB</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Trefferliste</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>SHLP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einzelne (aktuelle) Suchhilfe</STEXT>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CALLCONTROL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Steuerung des F4-Ablaufs</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
