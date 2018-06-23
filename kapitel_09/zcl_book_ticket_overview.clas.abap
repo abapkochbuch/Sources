@@ -71,11 +71,11 @@ METHOD add_info.
       ls_styl-style     = cl_gui_alv_grid=>mc_style_button.
       INSERT ls_styl INTO TABLE <ls_data>-t_style.
       <ls_data>-change_item = icon_change.
-      IF <ls_data>-responsible IS INITIAL.
+*      IF <ls_data>-responsible IS INITIAL.
         ls_dndtab-dragdropid = d_dnd_handle_copy.
         ls_dndtab-fieldname  = 'RESPONSIBLE'.
         APPEND ls_dndtab TO <ls_data>-t_dndtab.
-      ENDIF.
+*      ENDIF.
     ENDIF.
 
     ls_styl-fieldname = 'TEXT'.
