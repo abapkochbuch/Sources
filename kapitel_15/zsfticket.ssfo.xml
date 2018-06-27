@@ -3,7 +3,6 @@
  <sf:SMARTFORM xmlns:sf="urn:sap-com:SmartForms:2000:internal-structure" xmlns="urn:sap-com:sdixml-ifr:2000">
   <HEADER>
    <FORMNAME>ZSFTICKET</FORMNAME>
-   <CAPTION>Ausgabe der Ticketinformation</CAPTION>
    <MASTERLANG>D</MASTERLANG>
    <LANGVECTOR>*</LANGVECTOR>
    <DEVCLASS></DEVCLASS>
@@ -180,7 +179,6 @@
            <NAME>
             <INAME>MAINPAGE</INAME>
            </NAME>
-           <CAPTION>Hauptseite</CAPTION>
            <NEXTPAGE>
             <INAME>MAINPAGE</INAME>
            </NEXTPAGE>
@@ -207,7 +205,6 @@
               <NAME>
                <INAME>MAIN</INAME>
               </NAME>
-              <CAPTION>Hauptfenster</CAPTION>
               <WTYPE>M</WTYPE>
               <T_CAPTION>
                <item>
@@ -230,7 +227,6 @@
                      <NAME>
                       <INAME>TICKETINFORMATIONEN</INAME>
                      </NAME>
-                     <CAPTION>Informationen zum Ticket</CAPTION>
                      <SECTTYPE>C</SECTTYPE>
                      <TABHTYPE>I</TABHTYPE>
                      <OTABTYPE>D</OTABTYPE>
@@ -383,7 +379,6 @@
                         <NAME>
                          <INAME>%EVENT1</INAME>
                         </NAME>
-                        <CAPTION>Kopfbereich</CAPTION>
                         <EVTYPE>H</EVTYPE>
                         <T_CAPTION>
                          <item>
@@ -405,7 +400,6 @@
                            <NAME>
                             <INAME>KOPFZEILE_1</INAME>
                            </NAME>
-                           <CAPTION>Informationen zum Ticket</CAPTION>
                            <SECTTYPE>R</SECTTYPE>
                            <U_FHEIGHT>CM</U_FHEIGHT>
                            <PATTERN>
@@ -511,7 +505,6 @@
                               <NAME>
                                <INAME>KOPFDATEN_TXT</INAME>
                               </NAME>
-                              <CAPTION>Bezeichner Spalte</CAPTION>
                               <SECTTYPE>E</SECTTYPE>
                               <U_FHEIGHT>CM</U_FHEIGHT>
                               <PATTERN>
@@ -616,14 +609,7 @@
                                  <NAME>
                                   <INAME>%TEXT1</INAME>
                                  </NAME>
-                                 <CAPTION>Neuer Text 1</CAPTION>
                                  <APPMODE>P</APPMODE>
-                                 <TEXT>
-                                  <item>
-                                   <TDFORMAT>*</TDFORMAT>
-                                   <TDLINE>Owner:</TDLINE>
-                                  </item>
-                                 </TEXT>
                                  <STYLE_NAME>SYSTEM</STYLE_NAME>
                                  <TEXT_AREA>
                                   <ENABLED>F</ENABLED>
@@ -669,7 +655,6 @@
                            <NAME>
                             <INAME>KOPFZEILE_2</INAME>
                            </NAME>
-                           <CAPTION>Informationen zum Ticket</CAPTION>
                            <SECTTYPE>R</SECTTYPE>
                            <U_FHEIGHT>CM</U_FHEIGHT>
                            <PATTERN>
@@ -775,7 +760,6 @@
                               <NAME>
                                <INAME>%CELL7</INAME>
                               </NAME>
-                              <CAPTION>Bezeichner Spalte</CAPTION>
                               <SECTTYPE>E</SECTTYPE>
                               <U_FHEIGHT>CM</U_FHEIGHT>
                               <PATTERN>
@@ -880,14 +864,7 @@
                                  <NAME>
                                   <INAME>%TEXT3</INAME>
                                  </NAME>
-                                 <CAPTION>Neuer Text 3</CAPTION>
                                  <APPMODE>P</APPMODE>
-                                 <TEXT>
-                                  <item>
-                                   <TDFORMAT>*</TDFORMAT>
-                                   <TDLINE>Ticketnummer:</TDLINE>
-                                  </item>
-                                 </TEXT>
                                  <STYLE_NAME>SYSTEM</STYLE_NAME>
                                  <TEXT_AREA>
                                   <ENABLED>F</ENABLED>
@@ -933,7 +910,6 @@
                            <NAME>
                             <INAME>KOPFZEILE_3</INAME>
                            </NAME>
-                           <CAPTION>Informationen zum Ticket</CAPTION>
                            <SECTTYPE>R</SECTTYPE>
                            <U_FHEIGHT>CM</U_FHEIGHT>
                            <PATTERN>
@@ -1039,7 +1015,6 @@
                               <NAME>
                                <INAME>%CELL5</INAME>
                               </NAME>
-                              <CAPTION>Bezeichner Spalte</CAPTION>
                               <SECTTYPE>E</SECTTYPE>
                               <U_FHEIGHT>CM</U_FHEIGHT>
                               <PATTERN>
@@ -1144,7 +1119,6 @@
                                  <NAME>
                                   <INAME>%TEXT5</INAME>
                                  </NAME>
-                                 <CAPTION>Neuer Text 5</CAPTION>
                                  <NOLANGUAGE>X</NOLANGUAGE>
                                  <APPMODE>P</APPMODE>
                                  <TEXT>
@@ -1186,7 +1160,6 @@
                            <NAME>
                             <INAME>KOPFZEILE_4</INAME>
                            </NAME>
-                           <CAPTION>Informationen zum Ticket</CAPTION>
                            <SECTTYPE>R</SECTTYPE>
                            <U_FHEIGHT>CM</U_FHEIGHT>
                            <PATTERN>
@@ -1292,7 +1265,6 @@
                               <NAME>
                                <INAME>%CELL3</INAME>
                               </NAME>
-                              <CAPTION>Bezeichner Spalte</CAPTION>
                               <SECTTYPE>E</SECTTYPE>
                               <U_FHEIGHT>CM</U_FHEIGHT>
                               <PATTERN>
@@ -1397,7 +1369,6 @@
                                  <NAME>
                                   <INAME>%TEXT7</INAME>
                                  </NAME>
-                                 <CAPTION>Neuer Text 7</CAPTION>
                                  <NOLANGUAGE>X</NOLANGUAGE>
                                  <APPMODE>P</APPMODE>
                                  <TEXT_AREA>
@@ -1433,7 +1404,6 @@
                            <NAME>
                             <INAME>KOPFZEILE_5</INAME>
                            </NAME>
-                           <CAPTION>Informationen zum Ticket</CAPTION>
                            <SECTTYPE>R</SECTTYPE>
                            <U_FHEIGHT>CM</U_FHEIGHT>
                            <PATTERN>
@@ -1539,7 +1509,6 @@
                               <NAME>
                                <INAME>%CELL1</INAME>
                               </NAME>
-                              <CAPTION>Bezeichner Spalte</CAPTION>
                               <SECTTYPE>E</SECTTYPE>
                               <U_FHEIGHT>CM</U_FHEIGHT>
                               <PATTERN>
@@ -1644,7 +1613,6 @@
                                  <NAME>
                                   <INAME>%TEXT9</INAME>
                                  </NAME>
-                                 <CAPTION>Neuer Text 9</CAPTION>
                                  <NOLANGUAGE>X</NOLANGUAGE>
                                  <APPMODE>P</APPMODE>
                                  <TEXT_AREA>
@@ -1683,7 +1651,6 @@
                         <NAME>
                          <INAME>%EVENT2</INAME>
                         </NAME>
-                        <CAPTION>Hauptbereich</CAPTION>
                         <EVTYPE>B</EVTYPE>
                         <T_CAPTION>
                          <item>
@@ -1705,7 +1672,6 @@
                            <NAME>
                             <INAME>HISTORIENPOSITION</INAME>
                            </NAME>
-                           <CAPTION>Positionen der Historie</CAPTION>
                            <SECTTYPE>R</SECTTYPE>
                            <U_FHEIGHT>CM</U_FHEIGHT>
                            <PATTERN>
@@ -1811,7 +1777,6 @@
                               <NAME>
                                <INAME>HISTORIENEINTRAG</INAME>
                               </NAME>
-                              <CAPTION>Historieneintrag</CAPTION>
                               <SECTTYPE>E</SECTTYPE>
                               <U_FHEIGHT>CM</U_FHEIGHT>
                               <PATTERN>
@@ -1916,7 +1881,6 @@
                                  <NAME>
                                   <INAME>HISTORIE</INAME>
                                  </NAME>
-                                 <CAPTION>Text der Historie</CAPTION>
                                  <NOLANGUAGE>X</NOLANGUAGE>
                                  <APPMODE>P</APPMODE>
                                  <TEXT>
@@ -1959,7 +1923,6 @@
                               <NAME>
                                <INAME>%CELL9</INAME>
                               </NAME>
-                              <CAPTION>Neue Spalte 9</CAPTION>
                               <SECTTYPE>E</SECTTYPE>
                               <U_FHEIGHT>CM</U_FHEIGHT>
                               <PATTERN>
@@ -2073,7 +2036,6 @@
                         <NAME>
                          <INAME>%EVENT3</INAME>
                         </NAME>
-                        <CAPTION>Fußbereich</CAPTION>
                         <EVTYPE>F</EVTYPE>
                         <T_CAPTION>
                          <item>
@@ -2102,7 +2064,6 @@
               <NAME>
                <INAME>%OUTATTRIB1</INAME>
               </NAME>
-              <CAPTION>Neue Ausgabeoption</CAPTION>
               <U_WFRAME>PT</U_WFRAME>
               <U_WBOXV>CM</U_WBOXV>
               <U_WBOXH>CM</U_WBOXH>
@@ -2186,7 +2147,6 @@
               <NAME>
                <INAME>LOGO</INAME>
               </NAME>
-              <CAPTION>Fenster Logo des Unternehmens</CAPTION>
               <WTYPE>T</WTYPE>
               <T_CAPTION>
                <item>
@@ -2209,7 +2169,6 @@
                      <NAME>
                       <INAME>LOGO</INAME>
                      </NAME>
-                     <CAPTION>Logo des Unternehmens</CAPTION>
                      <RESOLUTION>0200</RESOLUTION>
                      <GTYPE>B</GTYPE>
                      <GKEYBDS>
@@ -2246,7 +2205,6 @@
                      <NAME>
                       <INAME>%CONDITION1</INAME>
                      </NAME>
-                     <CAPTION>Neue Alternative 1</CAPTION>
                      <COND>
                       <item>
                        <COP>NE</COP>
