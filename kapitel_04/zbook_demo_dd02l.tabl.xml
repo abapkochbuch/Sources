@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZBOOK_DEMO_DD02L</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>Kochbuch: Demonstration DD02L</DDTEXT>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>ZBOOK_DEMO_DD02L</TABNAME>
+     <FIELDNAME>.INCLU-$LI</FIELDNAME>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <POSITION>0001</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <REFTABLE>MASTERLANG$LI</REFTABLE>
+     <PRECFIELD>DD02L</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>SAP-Tabellen</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>LINKS</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZBOOK_DEMO_DD02L</TABNAME>
+     <FIELDNAME>.INCLU-$RE</FIELDNAME>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <POSITION>0046</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>DD02L</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>SAP-Tabellen</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>RECHTS</GROUPNAME>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
