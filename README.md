@@ -34,6 +34,9 @@ ZBOOK_VIEWCLUSTER_EXIT_POOL
 
 ## Chapter 04
 In the book we describe to use number range objekt "ZBOOK_TIK". Actually it's "ZBOOK_TIC". Please make sure you use the right object name.
+Replaced Demo with VBAK by Demo with DD02L
+PROG ZBOOK_DEMO_VBAK -> ZBOOK_DEMO_DD02L
+TABL ZBOOK_DEMO_VBAK -> ZBOOK_DEMO_DD02L
 
 ## Chapter 05
 Reuse Controls
