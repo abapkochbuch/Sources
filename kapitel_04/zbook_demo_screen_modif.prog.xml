@@ -100,7 +100,7 @@
        <CONT_NAME>SCREEN</CONT_NAME>
        <TYPE>TEXT</TYPE>
        <NAME>ZBOOK_TICKET_DYNPRO-AEDATTIK</NAME>
-       <TEXT>Geändert_am____</TEXT>
+       <TEXT>aktuelles_Datum</TEXT>
        <LINE>002</LINE>
        <COLUMN>060</COLUMN>
        <LENGTH>015</LENGTH>
@@ -136,7 +136,7 @@
        <CONT_NAME>SCREEN</CONT_NAME>
        <TYPE>TEXT</TYPE>
        <NAME>ZBOOK_TICKET_DYNPRO-AETIMTIK</NAME>
-       <TEXT>Änderungszeit__</TEXT>
+       <TEXT>Uhrzeit________</TEXT>
        <LINE>003</LINE>
        <COLUMN>060</COLUMN>
        <LENGTH>015</LENGTH>
@@ -331,7 +331,7 @@
        <CONT_NAME>SCREEN</CONT_NAME>
        <TYPE>TEXT</TYPE>
        <NAME>ZBOOK_TICKET_DYNPRO-ERDATTIK</NAME>
-       <TEXT>Angelegt_am__</TEXT>
+       <TEXT>aktuelles_Dat</TEXT>
        <LINE>007</LINE>
        <COLUMN>060</COLUMN>
        <LENGTH>013</LENGTH>
