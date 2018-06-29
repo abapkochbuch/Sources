@@ -35,20 +35,6 @@
       <RPY_DYFATC>
        <CONT_TYPE>SCREEN</CONT_TYPE>
        <CONT_NAME>SCREEN</CONT_NAME>
-       <TYPE>FRAME</TYPE>
-       <NAME>FRAME_TICKET</NAME>
-       <TEXT>Ticketnummer______________________________________</TEXT>
-       <LINE>001</LINE>
-       <COLUMN>001</COLUMN>
-       <LENGTH>051</LENGTH>
-       <VISLENGTH>051</VISLENGTH>
-       <HEIGHT>003</HEIGHT>
-       <FORMAT>CHAR</FORMAT>
-       <REQU_ENTRY>N</REQU_ENTRY>
-      </RPY_DYFATC>
-      <RPY_DYFATC>
-       <CONT_TYPE>SCREEN</CONT_TYPE>
-       <CONT_NAME>SCREEN</CONT_NAME>
        <TYPE>TEXT</TYPE>
        <NAME>ZBOOK_TICKET_DYNPRO-TIKNRTIK</NAME>
        <TEXT>Ticket-Nr______</TEXT>
