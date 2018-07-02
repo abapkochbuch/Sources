@@ -72,3 +72,15 @@ Drag & drop
 ## Chapter 15
 smart forms
 
+## Chapter 16
+Generic Object Services 
+plus: https://www.inwerken.de/gos-anhange-auslesen-anlegen/
+
+## Chapter 17
+Send E-Mails
+
+## Chapter 18
+Dynamic programming
+watch out: Report names may differ from book.
+ZBOOK_DYN* => ZBOOK_DEMO_DYN*
+
