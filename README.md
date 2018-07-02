@@ -72,3 +72,20 @@ Drag & drop
 ## Chapter 15
 smart forms
 
+## Chapter 16
+Generic Object Services
+
+## Chapter 17
+Send E-Mails
+
+## Chapter 18
+Dynamic Programming
+Watch out: Names may differ.
+Reports ZBOOK_DYN* => ZBOOK_DEMO_DYN*
+
+## Chapter 19
+Exception classes
+
+## Chapter 20
+Personalization
+Personalization dialog assigned to chapter 04 because one function group.
