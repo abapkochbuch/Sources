@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZBOOK_ATTR_OS</DOMNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Kochbuch: Attribut &quot;Betriebssystem&quot;</DDTEXT>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZBOOK_ATTR_OS</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>LINUX</DOMVALUE_L>
+     <DDTEXT>Linux</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZBOOK_ATTR_OS</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>WINXP</DOMVALUE_L>
+     <DDTEXT>Windows XP</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZBOOK_ATTR_OS</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>WIN7</DOMVALUE_L>
+     <DDTEXT>Windows 7</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZBOOK_ATTR_OS</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>WIN8</DOMVALUE_L>
+     <DDTEXT>Windows 8</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZBOOK_ATTR_OS</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DOMVALUE_L>OSX</DOMVALUE_L>
+     <DDTEXT>Mac OS/X</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZBOOK_ATTR_OS</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>D</DDLANGUAGE>
+     <DDTEXT>Leer</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
