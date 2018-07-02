@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Ticketsystem Webservices</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBOOK_HTTPTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBOOK_HTTP</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_BOOK_GET_OPEN_TICKETS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Anzahl offener Tickets</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_OPEN_TICKETS</PARAMETER>
+       <TYP>I</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>E_OPEN_TICKETS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Anzahl offener Tickets</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>Z_BOOK_GET_TICKET_STAT_COUNT</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Tickets Statusübersicht</SHORT_TEXT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>ET_TICKETS</PARAMETER>
+       <TYP>ZBOOK_TICKET_STATUS_COUNT_TAB</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>ET_TICKETS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Status Übersicht der Tickets</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
