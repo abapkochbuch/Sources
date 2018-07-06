@@ -10,7 +10,6 @@
    <FUNCTIONS>
     <item>
      <FUNCNAME>CONVERSION_EXIT_ZBPER_INPUT</FUNCNAME>
-     <SHORT_TEXT>Konvertierungs-Exit ALPHA, extern-&gt;intern</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>INPUT</PARAMETER>
@@ -27,20 +26,17 @@
       <RSFDO>
        <PARAMETER>INPUT</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>C-Feld</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>OUTPUT</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>interne Darstellung von INPUT, beliebiger Typ</STEXT>
        <INDEX> 002</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>CONVERSION_EXIT_ZBPER_OUTPUT</FUNCNAME>
-     <SHORT_TEXT>Konvertierungs-Exit ALPHA, extern-&gt;intern</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>INPUT</PARAMETER>
@@ -57,13 +53,11 @@
       <RSFDO>
        <PARAMETER>INPUT</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>C-Feld</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>OUTPUT</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>interne Darstellung von INPUT, beliebiger Typ</STEXT>
        <INDEX> 002</INDEX>
       </RSFDO>
      </DOCUMENTATION>
@@ -71,7 +65,6 @@
     <item>
      <FUNCNAME>Z_BOOK_PARALLEL_DEMO</FUNCNAME>
      <REMOTE_CALL>R</REMOTE_CALL>
-     <SHORT_TEXT>Kochbuch 2.0: Demonstration Parallelverarbeitung</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>TIKNR</PARAMETER>
@@ -96,32 +89,27 @@
       <RSFDO>
        <PARAMETER>TIKNR</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Buchprojekt: Ticketnummer</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>DATEINAME</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Verzeichnis</STEXT>
        <INDEX> 002</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>P_TASK</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Task-ID</STEXT>
        <INDEX> 003</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>FEHLER</PARAMETER>
        <KIND>X</KIND>
-       <STEXT>Fehler beim Upload</STEXT>
        <INDEX> 004</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>Z_BOOK_PERSONAL_SETTINGS_EDIT</FUNCNAME>
-     <SHORT_TEXT>Kochbuch: Personalisierung für Ticket-Dialog</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>P_PERS_OBJECT</PARAMETER>
@@ -147,32 +135,27 @@
       <RSFDO>
        <PARAMETER>P_PERS_OBJECT</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Personalisierungsobjekt</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>P_VIEW_MODE</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Anzeigemodus</STEXT>
        <INDEX> 002</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>DIALOG_CANCELED</PARAMETER>
        <KIND>X</KIND>
-       <STEXT>Dialog abgebrochen</STEXT>
        <INDEX> 003</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>PERS_OBJECT_ERROR</PARAMETER>
        <KIND>X</KIND>
-       <STEXT>Probleme bei der Übergabe der Personalisierungsdaten</STEXT>
        <INDEX> 004</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>Z_BOOK_TICKET_SHLP_EXIT</FUNCNAME>
-     <SHORT_TEXT>Beispiel für ein Suchhilfe-Exit eine Suchhilfe</SHORT_TEXT>
      <CHANGING>
       <RSCHA>
        <PARAMETER>SHLP</PARAMETER>
@@ -197,25 +180,21 @@
       <RSFDO>
        <PARAMETER>SHLP_TAB</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Tabelle der elementaren Suchhilfen</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>RECORD_TAB</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Trefferliste</STEXT>
        <INDEX> 002</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>SHLP</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Einzelne (aktuelle) Suchhilfe</STEXT>
        <INDEX> 003</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>CALLCONTROL</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Steuerung des F4-Ablaufs</STEXT>
        <INDEX> 004</INDEX>
       </RSFDO>
      </DOCUMENTATION>
