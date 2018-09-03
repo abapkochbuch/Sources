@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_BOOK_TICKET_DYN_ATTRIBUTES</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Ticket - Dynamische Attribute</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BOOK_TICKET_DYN_ATTRIBUTES</CLSNAME>
+     <CMPNAME>GV_TIKNR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Buchprojekt: Ticketnummer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BOOK_TICKET_DYN_ATTRIBUTES</CLSNAME>
+     <CMPNAME>READ_TICKET_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Read ticket</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BOOK_TICKET_DYN_ATTRIBUTES</CLSNAME>
+     <CMPNAME>SAVE_TICKET_ATTRIBUTES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Save ticket</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZIF_BOOK_TICKET_DYN_ATTRIBUTES</CLSNAME>
+     <CMPNAME>SET_TICKET_NUMBER</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Set ticket number</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
