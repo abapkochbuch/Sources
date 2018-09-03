@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_BOOK_TICKET_LOG_MSG</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Applikationsprotokoll: Nachricht</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG_MSG</CLSNAME>
+     <CMPNAME>ADD_CALLBACK</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Der Msg. einen Callback hinzufügen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG_MSG</CLSNAME>
+     <CMPNAME>ADD_PARAM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Der Msg. einen Parameter hinzufügen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG_MSG</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG_MSG</CLSNAME>
+     <CMPNAME>CREATE_BAPIRET2</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Msg. aus BAPIRET2 anlegen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG_MSG</CLSNAME>
+     <CMPNAME>CREATE_SYMSG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Msg. aus SY-Variablen anlegen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG_MSG</CLSNAME>
+     <CMPNAME>GET_MSG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Nachrichten-Struktur lesen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG_MSG</CLSNAME>
+     <CMPNAME>GET_PROBCLASS</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Problemklasse ermitteln</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_BOOK_TICKET_LOG_MSG</CLSNAME>
+     <CMPNAME>GS_MSG</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Anwendungs-Log: Daten einer Meldung</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
