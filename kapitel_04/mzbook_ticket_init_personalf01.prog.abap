@@ -5,11 +5,15 @@ FORM personalization_get.
 
   CALL METHOD cl_pers_admin=>get_data
     EXPORTING
-      p_pers_key    = 'ZBOOK_TICKET'
+      p_pers_key  = 'ZBOOK_TICKET'
     IMPORTING
-      p_pers_data   = gs_zbook_pers
+      p_pers_data = gs_zbook_pers
     EXCEPTIONS
-      OTHERS        = 4.
+      OTHERS      = 4.
+  IF sy-subrc > 0.
+    gs_zbook_pers-size_left  = 200.
+    gs_zbook_pers-size_right = 200.
+  ENDIF.
 *  IF sy-subrc > 0 or gs_zbook_pers is INITIAL.
 *    CALL METHOD cl_pers_admin=>get_data_role
 *      EXPORTING
