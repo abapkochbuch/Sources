@@ -10,6 +10,7 @@
    <FUNCTIONS>
     <item>
      <FUNCNAME>Z_BOOK_APPLOG_CB_TICKET_CHANGE</FUNCNAME>
+     <SHORT_TEXT>Application Log Callback: Ticket ändern</SHORT_TEXT>
      <TABLES>
       <RSTBL>
        <PARAMETER>I_T_PARAMS</PARAMETER>
@@ -20,6 +21,7 @@
       <RSFDO>
        <PARAMETER>I_T_PARAMS</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Schnittstelle für Funktionsgruppe SPO6</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
      </DOCUMENTATION>
