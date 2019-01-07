@@ -19,7 +19,6 @@ DATA:      BEGIN OF g_tc_demo,
              prog        LIKE sy-repid VALUE 'SAPMZBOOK_DEMO',
              pressed_tab LIKE sy-ucomm VALUE c_tc_demo-tab1,
            END OF g_tc_demo.
-DATA:      sy-ucomm LIKE sy-ucomm.
 
 
 TABLES vbak.
