@@ -74,11 +74,6 @@
      <MSGNR>013</MSGNR>
      <TEXT>Neue Meldung. Demo. &amp;</TEXT>
     </T100>
-    <T100>
-     <SPRSL>D</SPRSL>
-     <ARBGB>ZBOOK</ARBGB>
-     <MSGNR>014</MSGNR>
-    </T100>
    </T100>
   </asx:values>
  </asx:abap>
