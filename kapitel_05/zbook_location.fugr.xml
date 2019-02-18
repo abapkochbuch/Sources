@@ -116,8 +116,6 @@
        <COLUMN>003</COLUMN>
        <LENGTH>096</LENGTH>
        <HEIGHT>010</HEIGHT>
-       <C_LINE_MIN>001</C_LINE_MIN>
-       <C_COLN_MIN>001</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>

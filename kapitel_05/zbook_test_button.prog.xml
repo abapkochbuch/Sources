@@ -36,8 +36,6 @@
        <COLUMN>003</COLUMN>
        <LENGTH>024</LENGTH>
        <HEIGHT>005</HEIGHT>
-       <C_LINE_MIN>001</C_LINE_MIN>
-       <C_COLN_MIN>001</C_COLN_MIN>
       </RPY_DYCATT>
       <RPY_DYCATT>
        <TYPE>CUST_CTRL</TYPE>
@@ -47,8 +45,6 @@
        <COLUMN>033</COLUMN>
        <LENGTH>026</LENGTH>
        <HEIGHT>002</HEIGHT>
-       <C_LINE_MIN>001</C_LINE_MIN>
-       <C_COLN_MIN>001</C_COLN_MIN>
       </RPY_DYCATT>
       <RPY_DYCATT>
        <TYPE>CUST_CTRL</TYPE>
@@ -58,8 +54,6 @@
        <COLUMN>033</COLUMN>
        <LENGTH>026</LENGTH>
        <HEIGHT>002</HEIGHT>
-       <C_LINE_MIN>001</C_LINE_MIN>
-       <C_COLN_MIN>001</C_COLN_MIN>
       </RPY_DYCATT>
       <RPY_DYCATT>
        <TYPE>CUST_CTRL</TYPE>
@@ -69,8 +63,6 @@
        <COLUMN>003</COLUMN>
        <LENGTH>024</LENGTH>
        <HEIGHT>005</HEIGHT>
-       <C_LINE_MIN>001</C_LINE_MIN>
-       <C_COLN_MIN>001</C_COLN_MIN>
       </RPY_DYCATT>
       <RPY_DYCATT>
        <TYPE>CUST_CTRL</TYPE>
@@ -80,8 +72,6 @@
        <COLUMN>033</COLUMN>
        <LENGTH>008</LENGTH>
        <HEIGHT>005</HEIGHT>
-       <C_LINE_MIN>001</C_LINE_MIN>
-       <C_COLN_MIN>001</C_COLN_MIN>
       </RPY_DYCATT>
       <RPY_DYCATT>
        <TYPE>CUST_CTRL</TYPE>
@@ -91,8 +81,6 @@
        <COLUMN>042</COLUMN>
        <LENGTH>008</LENGTH>
        <HEIGHT>005</HEIGHT>
-       <C_LINE_MIN>001</C_LINE_MIN>
-       <C_COLN_MIN>001</C_COLN_MIN>
       </RPY_DYCATT>
       <RPY_DYCATT>
        <TYPE>CUST_CTRL</TYPE>
@@ -102,8 +90,6 @@
        <COLUMN>051</COLUMN>
        <LENGTH>008</LENGTH>
        <HEIGHT>005</HEIGHT>
-       <C_LINE_MIN>001</C_LINE_MIN>
-       <C_COLN_MIN>001</C_COLN_MIN>
       </RPY_DYCATT>
      </CONTAINERS>
      <FIELDS>
