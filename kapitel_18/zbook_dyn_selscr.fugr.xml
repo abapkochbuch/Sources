@@ -6,13 +6,11 @@
    <INCLUDES>
     <SOBJ_NAME>LZBOOK_DYN_SELSCRSSE</SOBJ_NAME>
     <SOBJ_NAME>LZBOOK_DYN_SELSCRTOP</SOBJ_NAME>
-    <SOBJ_NAME>ZBOOK_DYN_SELSCR_TEMPLATE_INCL</SOBJ_NAME>
     <SOBJ_NAME>SAPLZBOOK_DYN_SELSCR</SOBJ_NAME>
    </INCLUDES>
    <FUNCTIONS>
     <item>
      <FUNCNAME>Z_BOOK_DYN_SELSCR_GET_PARAM</FUNCNAME>
-     <SHORT_TEXT>Daten holen von dynamischem Parameter</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>IV_DYN_PARAM_NAME</PARAMETER>
@@ -36,30 +34,25 @@
       <RSFDO>
        <PARAMETER>IV_DYN_PARAM_NAME</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Feldname</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>EV_DYN_PARAM_VALUE</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Text in Länge 132</STEXT>
        <INDEX> 002</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>UNKNOWN_DYN_PARAMETER</PARAMETER>
        <KIND>X</KIND>
-       <STEXT>Unbekannter dynamischer Parameter</STEXT>
        <INDEX> 003</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>Z_BOOK_DYN_SELSCR_INIT_FIELDS</FUNCNAME>
-     <SHORT_TEXT>Set area and class --&gt; Build Screen</SHORT_TEXT>
     </item>
     <item>
      <FUNCNAME>Z_BOOK_DYN_SELSCR_SET_PARAM</FUNCNAME>
-     <SHORT_TEXT>Daten holen von dynamischem Parameter</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>IV_DYN_PARAM_NAME</PARAMETER>
@@ -81,26 +74,22 @@
       <RSFDO>
        <PARAMETER>IV_DYN_PARAM_NAME</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Feldname</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>IV_DYN_PARAM_VALUE</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Text in Länge 132</STEXT>
        <INDEX> 002</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>UNKNOWN_DYN_PARAMETER</PARAMETER>
        <KIND>X</KIND>
-       <STEXT>Unbekannter dynamischer Parameter</STEXT>
        <INDEX> 003</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>Z_BOOK_DYN_SELSCR_SET_USED</FUNCNAME>
-     <SHORT_TEXT>Set area and class --&gt; Build Screen</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>IS_DYN_FIELDS</PARAMETER>
@@ -112,7 +101,6 @@
       <RSFDO>
        <PARAMETER>IS_DYN_FIELDS</PARAMETER>
        <KIND>P</KIND>
-       <STEXT>Dynamischer Selektionsbildschirm - Parameter und Selopts</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
      </DOCUMENTATION>
