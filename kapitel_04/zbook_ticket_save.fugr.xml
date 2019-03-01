@@ -10,6 +10,7 @@
    <FUNCTIONS>
     <item>
      <FUNCNAME>Z_BOOK_TICKET_SAVE</FUNCNAME>
+     <SHORT_TEXT>Kochbuch: Ticketdaten sichern</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>IS_TICKET</PARAMETER>
@@ -28,17 +29,20 @@
       <RSFDO>
        <PARAMETER>IS_TICKET</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Buchprojekt: Ticket</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>EV_TICKET_NR</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Buchprojekt: Ticketnummer</STEXT>
        <INDEX> 002</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>Z_RFC_MARA_READ</FUNCNAME>
+     <SHORT_TEXT>Lesen der MARA</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>I_MATNR</PARAMETER>
@@ -70,26 +74,31 @@
       <RSFDO>
        <PARAMETER>I_MATNR</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Material</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>I_SPRACHE</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Sprache</STEXT>
        <INDEX> 002</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>E_MAKT</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Sprachensegment</STEXT>
        <INDEX> 003</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>E_MARA</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>A-Segment</STEXT>
        <INDEX> 004</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>NO_ENTRY</PARAMETER>
        <KIND>X</KIND>
+       <STEXT>Kein Eintrag gefunden</STEXT>
        <INDEX> 005</INDEX>
       </RSFDO>
      </DOCUMENTATION>
@@ -97,6 +106,7 @@
     <item>
      <FUNCNAME>Z_RFC_READ_FORM</FUNCNAME>
      <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>SAPscript: Lesen Formular</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>CLIENT</PARAMETER>
@@ -240,16 +250,19 @@
       <RSFDO>
        <PARAMETER>THROUGHCLIENT</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Charakterfeld der Länge 1</STEXT>
        <INDEX> 007</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>READ_ONLY_HEADER</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Charakterfeld der Länge 1</STEXT>
        <INDEX> 008</INDEX>
       </RSFDO>
       <RSFDO>
        <PARAMETER>THROUGHLANGUAGE</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Charakterfeld der Länge 1</STEXT>
        <INDEX> 009</INDEX>
       </RSFDO>
       <RSFDO>
@@ -260,6 +273,7 @@
       <RSFDO>
        <PARAMETER>FOUND</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Charakterfeld der Länge 1</STEXT>
        <INDEX> 011</INDEX>
       </RSFDO>
       <RSFDO>

@@ -11,6 +11,7 @@
     <item>
      <FUNCNAME>Z_BOOK_GET_OPEN_TICKETS</FUNCNAME>
      <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Anzahl offener Tickets</SHORT_TEXT>
      <EXPORT>
       <RSEXP>
        <PARAMETER>E_OPEN_TICKETS</PARAMETER>
@@ -21,6 +22,7 @@
       <RSFDO>
        <PARAMETER>E_OPEN_TICKETS</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Anzahl offener Tickets</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
      </DOCUMENTATION>
@@ -28,6 +30,7 @@
     <item>
      <FUNCNAME>Z_BOOK_GET_TICKET_STAT_COUNT</FUNCNAME>
      <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Tickets Statusübersicht</SHORT_TEXT>
      <EXPORT>
       <RSEXP>
        <PARAMETER>ET_TICKETS</PARAMETER>
@@ -38,6 +41,7 @@
       <RSFDO>
        <PARAMETER>ET_TICKETS</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Status Übersicht der Tickets</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
      </DOCUMENTATION>

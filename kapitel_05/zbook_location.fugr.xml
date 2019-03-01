@@ -16,6 +16,7 @@
    <FUNCTIONS>
     <item>
      <FUNCNAME>Z_BOOK_LOCATION_GET_DATA</FUNCNAME>
+     <SHORT_TEXT>Zurückliefern der gewählten Option</SHORT_TEXT>
      <EXPORT>
       <RSEXP>
        <PARAMETER>LOCATION</PARAMETER>
@@ -27,12 +28,14 @@
       <RSFDO>
        <PARAMETER>LOCATION</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Buchprojekt: Standort</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>Z_BOOK_LOCATION_SET_DATA</FUNCNAME>
+     <SHORT_TEXT>Zurückliefern der gewählten Option</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>LOCATION</PARAMETER>
@@ -44,12 +47,14 @@
       <RSFDO>
        <PARAMETER>LOCATION</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Buchprojekt: Standort</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>Z_BOOK_LOCATION_SET_DISPLAY</FUNCNAME>
+     <SHORT_TEXT>Zurückliefern der gewählten Option</SHORT_TEXT>
      <IMPORT>
       <RSIMP>
        <PARAMETER>DISPLAY</PARAMETER>
@@ -61,12 +66,14 @@
       <RSFDO>
        <PARAMETER>DISPLAY</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Einstelliges Kennzeichen</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
      </DOCUMENTATION>
     </item>
     <item>
      <FUNCNAME>Z_BOOK_LOCATION_SHOW</FUNCNAME>
+     <SHORT_TEXT>Aufruf des Standort-Subscreens  als Popup</SHORT_TEXT>
      <CHANGING>
       <RSCHA>
        <PARAMETER>LOCATION</PARAMETER>
@@ -78,6 +85,7 @@
       <RSFDO>
        <PARAMETER>LOCATION</PARAMETER>
        <KIND>P</KIND>
+       <STEXT>Kochbuch: Standort</STEXT>
        <INDEX> 001</INDEX>
       </RSFDO>
      </DOCUMENTATION>
