@@ -4,8 +4,6 @@
   <asx:values>
    <PROGDIR>
     <NAME>ZBOOK_DYN_GRID</NAME>
-    <STATE>A</STATE>
-    <VARCL>X</VARCL>
     <SUBC>1</SUBC>
     <RSTAT>K</RSTAT>
     <RLOAD>D</RLOAD>

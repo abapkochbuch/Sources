@@ -21,10 +21,6 @@
     <SHLPFIELD>TIKNR</SHLPFIELD>
     <REFKIND>D</REFKIND>
    </DD04V>
-   <TPARA>
-    <PARAMID>ZBOOK_TICKET_NR</PARAMID>
-    <PARTEXT>Buchprojekt: Ticketnummer</PARTEXT>
-   </TPARA>
   </asx:values>
  </asx:abap>
 </abapGit>

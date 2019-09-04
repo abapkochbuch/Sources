@@ -4,8 +4,6 @@
   <asx:values>
    <PROGDIR>
     <NAME>SAPMZBOOK_TICKET</NAME>
-    <STATE>A</STATE>
-    <VARCL>X</VARCL>
     <SUBC>M</SUBC>
     <APPL>*</APPL>
     <RSTAT>T</RSTAT>

@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_BOOK_GOS_WRAPPER_DYN</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>D</LANGU>
     <DESCRIPT>Dynamischer GOS-Wrapper</DESCRIPT>
     <STATE>1</STATE>

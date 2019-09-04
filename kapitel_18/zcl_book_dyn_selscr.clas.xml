@@ -4,7 +4,6 @@
   <asx:values>
    <VSEOCLASS>
     <CLSNAME>ZCL_BOOK_DYN_SELSCR</CLSNAME>
-    <VERSION>1</VERSION>
     <LANGU>D</LANGU>
     <DESCRIPT>Dynamischer Selektionsbildschirm</DESCRIPT>
     <STATE>1</STATE>
