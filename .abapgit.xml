@@ -11,6 +11,8 @@
     <item>/README.md</item>
     <item>/package.json</item>
     <item>/.travis.yml</item>
+    <item>/kapitel_18/zbook_dyn_selscr.fugr.zbook_dyn_selscr_template_incl.abap</item>
+    <item>/kapitel_18/zbook_dyn_selscr.fugr.zbook_dyn_selscr_template_incl.xml</item>
    </IGNORE>
   </DATA>
  </asx:values>
